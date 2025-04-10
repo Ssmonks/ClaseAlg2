@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Promedio de Notas</title>
+		<script defer src="./assets/js/main.js"></script>
+	</head>
+	<body>
+		<img src="./assets/img/IUJO.gif" alt="UIJO LOGO" width="532" height="115" />
+		<fieldset>
+			<legend><h1>Practica</h1></legend>
+			<b
+				>Para esta practica debes ingresar un número que corresponderá al total de notas obtenidas,
+				seguidamente la pagina te pedirá el valor correspondiente de cada una de esas notas para
+				poteriormente retornar el promedio tal obtenido pór la acumlación de las notas obtenidas.</b
+			>
+			<hr />
+			<fieldset>
+				<legend><h1>Nota</h1></legend>
+				<form action="./assets/php/rebice.php" method="post">
+					<label for="notas"
+						>Ingresa la cantidad de notas obtenidas:
+						<input type="number" name="notas" id="notas" required placeholder="Cantidad de Notas"
+					/></label>
+					<br /><br />
+					<div id="nue_in"></div>
+					<input type="button" value="Cargar Notas" id="boton" />
+					<input type="submit" value="Promediar" id="boton_submit" style="display: none" />
+					<input type="reset" id="Borrar" value="Borrar" />
+				</form>
+			</fieldset>
+		</fieldset>
+	</body>
+</html>
