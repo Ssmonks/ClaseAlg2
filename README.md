@@ -8,7 +8,7 @@
 
 ## Instrucciones para bajar los nuevos cambios del repositorio
 
---- **Paso 1:** Abrir el visualizador de control de codigo fuente en Visual Studio Code. Pueden usar las teclas (ctrl + shift + G)
---- **Paso 2:** Clickear sobre los tres puntos (...) que hay en la parte superior derecha.
---- **Paso 3:** Clickear sobre la opción "Incorporar cambios ("pull")".
+--- **Paso 1:** Abrir el visualizador de control de codigo fuente en Visual Studio Code. Pueden usar las teclas (ctrl + shift + G) <br />
+--- **Paso 2:** Clickear sobre los tres puntos (...) que hay en la parte superior derecha. <br />
+--- **Paso 3:** Clickear sobre la opción "Incorporar cambios ("pull")". <br />
 --- **Paso 4:** "Disfrutar... ya tienen los codigos actualizados en su PC." <br />
